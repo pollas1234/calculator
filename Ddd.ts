@@ -24,7 +24,7 @@ game.splash("" + Num1 + " ** " + Num2 + " = " + (Num1 ** Num2))
     //% block
     export function Factorial(Num1: number): void{
         let Faactorial = Num1 - 1
-        lista = [Num1]
+        let lista = [Num1]
         while(Faactorial >= 1){
             lista.push(Faactorial * lista.pop())
             Faactorial += -1
