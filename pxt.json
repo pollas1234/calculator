@@ -3,14 +3,17 @@
     "version": "1.0.1",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
         "assets.json",
-        "Ddd.ts"
+        "Ddd.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
