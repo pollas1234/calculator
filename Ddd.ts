@@ -3,7 +3,7 @@
 namespace calculator{
     //% block
    export function Add (Num1: number, Num2: number): void {
-    game.splash("" + Num1 + " + " + Num2 + " = " + Num1 + Num2)
+    game.splash("" + Num1 + " + " + Num2 + " = " + (Num1 + Num2))
     }
     //% block
     export function Subtract (Num1: number, Num2: number): void {
